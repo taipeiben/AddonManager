@@ -1,0 +1,11 @@
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressIndicator?>
+<?import javafx.scene.layout.VBox?>
+<VBox
+        xmlns:fx="http://javafx.com/fxml"
+        fx:controller="com.browniebytes.wow.addonmanager.controller.PleaseWaitController"
+        alignment="CENTER"
+        spacing="10.0">
+    <Label fx:id="messageLabel"/>
+    <ProgressIndicator progress="-1.0"/>
+</VBox>

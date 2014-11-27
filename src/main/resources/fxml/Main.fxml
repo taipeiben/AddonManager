@@ -1,0 +1,16 @@
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<BorderPane
+        xmlns:fx="http://javafx.com/fxml"
+        fx:controller="com.browniebytes.wow.addonmanager.controller.AppController">
+    <bottom>
+        <VBox fx:id="bottomBox">
+
+        </VBox>
+    </bottom>
+    <center>
+        <VBox fx:id="centerBox">
+
+        </VBox>
+    </center>
+</BorderPane>
