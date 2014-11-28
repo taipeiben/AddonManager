@@ -53,6 +53,70 @@ public class Addon implements Serializable {
     @JsonProperty("UIDonationLink")
     private String donationLink;
 
+    public static long getSerialVersionUID() {
+        return serialVersionUID;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public Long getCatId() {
+        return catId;
+    }
+
+    public String getVersion() {
+        return version;
+    }
+
+    public Long getDate() {
+        return date;
+    }
+
+    public String getAddonName() {
+        return addonName;
+    }
+
+    public String getAuthorName() {
+        return authorName;
+    }
+
+    public String getFileInfoURL() {
+        return fileInfoURL;
+    }
+
+    public Long getDownloadTotal() {
+        return downloadTotal;
+    }
+
+    public Long getFavoriteTotal() {
+        return favoriteTotal;
+    }
+
+    public List<AddonCompatibility> getCompatibility() {
+        return compatibility;
+    }
+
+    public List<String> getUiDir() {
+        return uiDir;
+    }
+
+    public List<String> getImgThumbs() {
+        return imgThumbs;
+    }
+
+    public List<String> getImgs() {
+        return imgs;
+    }
+
+    public List<Long> getSiblings() {
+        return siblings;
+    }
+
+    public String getDonationLink() {
+        return donationLink;
+    }
+
     public static class AddonCompatibility {
         @JsonProperty("version")
         private String version;
